@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${exec_prefix}/include
+
+Name: JuliusLib
+Description: JuliusLib is the C library for Julius speech recognition suite
+Version: 4.5
+Libs: -ljulius   -lpthread
+Cflags: -I${prefix}/include 
+Depends: sent-4

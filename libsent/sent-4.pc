@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${exec_prefix}/include
+
+Name: Libsent
+Description: Libsent is the auxiliary C library for Julius speech recognition suite
+Version: 4.5
+Libs: -lsent  -Wl,-framework -Wl,CoreServices -Wl,-framework -Wl,CoreAudio -Wl,-framework -Wl,AudioUnit -Wl,-framework -Wl,AudioToolbox  -lz -liconv  
+Cflags: -I${prefix}/include -g -O2 

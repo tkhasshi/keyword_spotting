@@ -14,9 +14,11 @@ sh run.sh
 
 OpenJTalkは、jtalkdllをお借りしています。
 下記のページでダウンロードできます。
+
 https://github.com/rosmarinus/jtalkdll
 
 Juliusで使用している音響モデルと言語モデルは、以下のサイトからダウンロードをお願いします。
 このシステムで用いているのは、ディクテーションキット(dictation-kit)のモデル(model)です。
+
 https://julius.osdn.jp/index.php?q=dictation-kit.html
 

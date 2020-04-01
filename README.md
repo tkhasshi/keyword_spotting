@@ -25,3 +25,6 @@ https://julius.osdn.jp/index.php?q=dictation-kit.html
 開発環境
 
 Mac Book Pro(macOS Catalina バージョン 10.15.3)
+
+
+JuliusLib用サンプルコードであるjulius-simple.cのプログラムに、コードを追加して作成しました。
